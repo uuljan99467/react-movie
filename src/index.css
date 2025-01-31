@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.app-container {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Montserrat", serif;
+}
+
+
+custom-pagination {
+    pusition: absolute;
+    display: flex;
+align-items: end;
+gap: 10px;
+z-index: 100;
+}
+
+.custom-pagination .swiper-pagination-bullet {
+    width: 3px;
+    height: 21px;
+    background-color: #ccc;
+    border-radius: 5px;
+transition: background-color 0.3s;
+}
+
+.custom-pagination .swiper-pagination-bullet-active {
+    background-color: red;
+    height: 33px;
+}
+
+
+.app-container {
+    padding: 20px;
+    background-color: #0c0c0c;
+    color: white;
+}
+
+.section-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.trailer-swiper {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.video-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-title {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+}
