@@ -5,6 +5,7 @@ import App from './App.jsx'
 import GenreContext from './context/GenerContext.jsx'
 
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query"
+import './i18n.js'
 
 const queryClient = new QueryClient()
 

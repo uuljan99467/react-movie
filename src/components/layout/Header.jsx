@@ -16,7 +16,7 @@ const Header = () => {
             <div className='flex items-center gap-[70px]'>
                 <img src={Logo} alt="Logo" />
 
-                <NavLink to={"/"}>{t('home')}</NavLink> {/* Используйте t для перевода */}
+                
             </div>
 
             <div className="flex items-center gap-[70px]">
